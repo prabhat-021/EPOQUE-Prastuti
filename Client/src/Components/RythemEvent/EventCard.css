@@ -1,0 +1,11 @@
+.event-section{
+    margin:0 15% 0 15%;
+}
+
+.event-h1{
+    font-family: 'Poppins', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+    font-size: 46px;
+    line-height: 62px;
+    font-weight: 600;
+    font-style: normal;
+}
