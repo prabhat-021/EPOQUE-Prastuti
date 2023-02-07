@@ -1,10 +1,18 @@
+
 .sec {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    text-align: center;
     color: white;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 
 .bg-1{
     background-image: url('../../assets//images/1.jpg');
@@ -38,4 +46,36 @@
     background-image: url('../../assets//images/6.jpg');
     width: 100%;
     height: 100vh;
+}
+.sec-eve-day{
+    font-size: 6vmin;
+    font-weight: bolder;
+}
+.sec-eve-nam{
+    font-size: 10vmin;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.sec-eve-nam:hover{
+    color: rgb(30, 104, 252);
+}
+.sec-det-eve{
+    font-size: 4vmin;
+    font-weight: bold;
+}
+
+.btn{
+
+    margin-top: 15vh;
+    font-size: 20px;
+    color: white;
+    border: 2px solid white;
+    background: transparent;
+    font-weight: bold;
+    padding: 3vh 3vw;
+    cursor: pointer;
+}
+.btn:hover{
+    border-color:  rgb(30, 104, 252);
+    color:  rgb(30, 104, 252);
 }
