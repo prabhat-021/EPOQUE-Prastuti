@@ -55,8 +55,9 @@
     white-space: nowrap;
 }
 
-.event-grid{
+.event-grid {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-top: 50px;
 }
