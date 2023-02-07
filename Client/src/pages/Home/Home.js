@@ -1,6 +1,10 @@
 import React from 'react';
 import Gallary from '../../components/Gallery/Gallary';
 import './Home.css';
+import { BsPhone } from 'react-icons/bs';
+import { GoLocation } from "react-icons/go";
+import { FiMail } from "react-icons/fi";
+
 import EventCard from "../../components/RythemEvent/EventCard.js";
 
 const Home = () => {
@@ -10,7 +14,7 @@ const Home = () => {
                 <EventCard />
             </section>
             <section className='bg-2 sec sec-new'>
-            <div className='sec-eve-nam'>UPCOMING EVENTS</div>
+                <div className='sec-eve-nam'>UPCOMING EVENTS</div>
                 <div className='sec-det-eve'>Best Music Events</div>
             </section>
             <section className=' sec-new bg-3 sec'>
@@ -41,8 +45,28 @@ const Home = () => {
             <section className='sec sec-btn'>
                 <button className='btn'>ALL GALARY</button>
             </section>
-            <section className='bg-6 sec'></section>
-            <section className='bg-6 sec'></section>
+            <section className='bg-6 sec sec-new'>
+                <div className="sec-eve-nam">VENUE & INFO</div>
+                <div className="sec-det-eve">Have Some Questions?</div>
+                <section className='venue'>
+                    <div className='icon-card'>
+                        <BsPhone className='icon'/>
+                        <div className='icon-h1'>Phone</div>
+                        <div className='icon-h2'>1-800-123-1234</div>
+                    </div>
+                    <div className='icon-card'>
+                        <GoLocation className='icon'/>
+                        <div className='icon-h1'>Address</div>
+                        <div className='icon-h2'>BROOKLYN, NY 10036, UNITED STATES</div>
+                    </div>
+                    <div className='icon-card'>
+                        <FiMail className='icon'/>
+                        <div className='icon-h1'>Mail</div>
+                        <div className='icon-h2'>CLUB@EMAIL.NET</div>
+                    </div>
+                </section>
+            </section>
+            <section className="bg-7 sec sec-new"></section>
         </>
     )
 
