@@ -2,10 +2,17 @@ import React from 'react';
 import Gallary from '../../components/Gallery/Gallary';
 import './Home.css';
 import EventCard from "../../components/RythemEvent/EventCard.js";
+import Landing from '../../components/Landing/Landing';
+import Navbar from '../../components/Navbar/Navbar';
 
 const Home = () => {
     return (
         <>
+        
+        <section className='vid-1  sec-vid'>
+            <Navbar/>
+            <Landing/>
+        </section>
             <section className='bg-1 sec'>
                 <EventCard />
             </section>
@@ -41,6 +48,10 @@ const Home = () => {
             <section className='sec sec-btn'>
                 <button className='btn'>ALL GALARY</button>
             </section>
+            
+
+
+            
             <section className='bg-6 sec'></section>
             <section className='bg-6 sec'></section>
         </>
