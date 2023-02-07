@@ -4,6 +4,8 @@ import './Home.css';
 import { BsPhone } from 'react-icons/bs';
 import { GoLocation } from "react-icons/go";
 import { FiMail } from "react-icons/fi";
+import { FaFacebookF, FaTwitter } from "react-icons/fa";
+import { AiOutlineInstagram, AiFillYoutube } from "react-icons/ai";
 
 import EventCard from "../../components/RythemEvent/EventCard.js";
 
@@ -50,23 +52,31 @@ const Home = () => {
                 <div className="sec-det-eve">Have Some Questions?</div>
                 <section className='venue'>
                     <div className='icon-card'>
-                        <BsPhone className='icon'/>
+                        <BsPhone className='icon' />
                         <div className='icon-h1'>Phone</div>
                         <div className='icon-h2'>1-800-123-1234</div>
                     </div>
                     <div className='icon-card'>
-                        <GoLocation className='icon'/>
+                        <GoLocation className='icon' />
                         <div className='icon-h1'>Address</div>
                         <div className='icon-h2'>BROOKLYN, NY 10036, UNITED STATES</div>
                     </div>
                     <div className='icon-card'>
-                        <FiMail className='icon'/>
+                        <FiMail className='icon' />
                         <div className='icon-h1'>Mail</div>
                         <div className='icon-h2'>CLUB@EMAIL.NET</div>
                     </div>
                 </section>
             </section>
-            <section className="bg-7 sec sec-new"></section>
+            <section className="bg-7 sec sec-new">
+                <div className="sec-eve-nam i">PRASTUTI</div>
+                <div className="venue gap">
+                    <FaFacebookF className='footer-icon'/>
+                    <AiOutlineInstagram className='footer-icon'/>
+                    <FaTwitter className='footer-icon'/>
+                    <AiFillYoutube className='footer-icon'/>
+                </div>
+            </section>
         </>
     )
 
