@@ -1,7 +1,7 @@
 import React from 'react';
 import Gallary from '../../components/Gallery/Gallary';
 import './Home.css';
-import EventCard from "../../Components/RythemEvent/EventCard.js"; 
+import EventCard from "../../components/RythemEvent/EventCard.js"; 
 
 const Home = () =>{
 return(
