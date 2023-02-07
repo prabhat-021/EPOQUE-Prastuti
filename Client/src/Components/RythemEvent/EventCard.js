@@ -17,9 +17,9 @@ function ncard(val) {
 function EventCard1(props) {
     return (
         <div className="container">
-            <div className="event-img">
+            {/* <div className="event-img"> */}
                 <img className="img1" src={props.image} alt="image" />
-            </div>
+            {/* </div> */}
             <div className="event-title">
                 {props.title}
             </div>
