@@ -28,6 +28,37 @@ return(
    <button className='btn' >Get Ticket</button>
     </section>
     <section className='bg-6 sec'></section>
+
+
+    <section className='bg-9 sec'>
+    <div className='sec-venue'>VENUE & INFO</div>
+   <div className='sec-ven-blw' >Have Some Questions?</div>
+   <div className='boxes'>
+
+    <div className='box'>
+    <i className="fa-solid fa-mobile-screen"></i>
+   <div className='fnt'>Phone</div>
+   <h2>1-800-123-1234</h2>
+   </div>
+
+   <div className='box'>
+   <i className="fa-sharp fa-solid fa-location-dot"></i>
+   <div className='fnt'>Address</div>
+   <h2>BROOKLYN, NY 10036, UNITED STATES</h2>
+   </div>
+
+   <div className='box'>
+   <i className='fa-regular fa-envelope'></i>
+   <div className='fnt'>Mail</div>
+   <h2>CLUB@EMAIL.NET</h2>
+   </div>
+
+   </div>
+
+    </section>
+
+    <section className='footer'></section>
+
     <section className='eve-gallary'></section>
     </>
 )
