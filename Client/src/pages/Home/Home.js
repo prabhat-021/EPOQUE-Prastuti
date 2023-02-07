@@ -9,7 +9,10 @@ const Home = () => {
             <section className='bg-1 sec'>
                 <EventCard />
             </section>
-            <section className='bg-2 sec'></section>
+            <section className='bg-2 sec sec-new'>
+            <div className='sec-eve-nam'>UPCOMING EVENTS</div>
+                <div className='sec-det-eve'>Best Music Events</div>
+            </section>
             <section className=' sec-new bg-3 sec'>
 
                 <div className='sec-eve-day'>Friday</div>
@@ -32,7 +35,6 @@ const Home = () => {
                 <div className='sec-det-eve'>DJ SUPBASS / GROOVES / DJ ROOTBOY</div>
                 <button className='btn' >Get Ticket</button>
             </section>
-            <section className='bg-6 sec'></section>
 
             <section><Gallary /></section>
 
