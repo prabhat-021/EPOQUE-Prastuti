@@ -6,7 +6,7 @@
 
 .event-h1 {
     font-family: 'Poppins', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
-    font-size: 46px;
+    font-size: 3rem;
     line-height: 62px;
     font-weight: 600;
     font-style: normal;
@@ -31,6 +31,7 @@
 .event-dis {
     font-weight: 200;
     margin-bottom: 20px;
+    text-align: justify;
 }
 
 .button {
@@ -60,4 +61,16 @@
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 50px;
+}
+
+@media screen and (max-width: 590px) {
+    .event-h1{
+    font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .event-h1{
+    font-size: 1.6rem;
+    }
 }
