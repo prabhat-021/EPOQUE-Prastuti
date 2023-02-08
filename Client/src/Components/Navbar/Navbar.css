@@ -1,8 +1,9 @@
 
   .nav-bg{
     width: 100%;
-    background-color: rgb(9, 9, 66);
-    height: 20vh;
+    background: rgba(0, 0, 0, 0.5);
+
+    height:15vh;
     display: flex;
     justify-content: center;
     align-items: center;
