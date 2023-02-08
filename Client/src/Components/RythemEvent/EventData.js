@@ -2,10 +2,13 @@ import image1 from "../../assets/demoImages/dummy.jpeg";
 
 export const EventData = [
     {
-        id: 1,
+        id: {
+            id:1
+        },
         image: image1,
         title: "Heading 1",
-        discription: "Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words"
+        discription: "Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words",
+        featured:true
     },
     {
         id: 2,

@@ -1,18 +1,42 @@
-[{
-"name":"DJ NIGHT ",
-"date":"12/3/2023",
-"event-desc":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod non hic, beatae a error, asperiores magnam quas atque fuga, veritatis illum. Adipisci temporibus perferendis magni eum quam, fugiat possimus quaerat alias sint, nemo odio rem voluptatibus, dicta ab eius quo tenetur? Natus, quidem ab. Aperiam vitae, laboriosam quidem facilis pariatur, placeat neque corporis repudiandae laudantium odio unde ipsum dolores a magnam"
-
-},
-{
-    "name":"DJ NIGHT ",
-    "date":"12/3/2023",
-    "event-desc":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod non hic, beatae a error, asperiores magnam quas atque fuga, veritatis illum. Adipisci temporibus perferendis magni eum quam, fugiat possimus quaerat alias sint, nemo odio rem voluptatibus, dicta ab eius quo tenetur? Natus, quidem ab. Aperiam vitae, laboriosam quidem facilis pariatur, placeat neque corporis repudiandae laudantium odio unde ipsum dolores a magnam"
+[
     
+    {
+        "id": 1,
+        "image": "../../assets/images/eve1.jpg",
+        "title": "Heading 1",
+        "discription": "Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words",
+        "featured":true
     },
     {
-        "name":"DJ NIGHT ",
-        "date":"12/3/2023",
-        "event-desc":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod non hic, beatae a error, asperiores magnam quas atque fuga, veritatis illum. Adipisci temporibus perferendis magni eum quam, fugiat possimus quaerat alias sint, nemo odio rem voluptatibus, dicta ab eius quo tenetur? Natus, quidem ab. Aperiam vitae, laboriosam quidem facilis pariatur, placeat neque corporis repudiandae laudantium odio unde ipsum dolores a magnam"
-        
-        }]
+        "id": 2,
+        "image": "image1",
+        "title": "Heading 2",
+        "discription": "Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words",
+        "featured":true
+    },
+    {
+        "id": 3,
+        "image": "image1",
+        "title": "Heading 3",
+        "discription": "Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words",
+        "featured":true
+    },
+    {
+        "id": 4,
+        "image": "image1",
+        "title": "Heading 4",
+        "discription": "Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words"
+    },
+    {
+        "id": 5,
+        "image": "image1",
+        "title": "Heading 5",
+        "discription": "Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words"
+    },
+    {
+        "id": 6,
+        "image": "image1",
+        "title": "Heading 6",
+        "discription": "Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words"
+    }
+    ]

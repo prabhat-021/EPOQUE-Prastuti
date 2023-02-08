@@ -17,7 +17,7 @@ const Home = () => {
         
         <section className='vid-1  sec-vid'>
             <Navbar/>
-            <Landing/>
+            <Landing className="landing-sec"/>
         </section>
             <section className='bg-1 sec'>
                 <EventCard />

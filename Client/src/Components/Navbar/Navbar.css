@@ -70,7 +70,7 @@ color: red;
         padding-right: 40px;
         width: 310px;
         left: 0;
-        top: 75px;
+        top: 68px;
         width: 100%;
         background-color: rgb(9, 9, 66);
       }
@@ -91,7 +91,6 @@ color: red;
         font-size: 30px;
         border: none;
         outline: none;
-        top: 15px;
-        right: 25px;
+        top: 10px;
       }
   }

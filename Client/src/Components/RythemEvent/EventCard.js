@@ -1,24 +1,29 @@
 import React from 'react';
 import "./EventCard.css";
-import { EventData } from "./EventData.js";
-import image from "../../assets/demoImages/dummy.jpeg";
+import ima1 from '../../assets/images/eve1.jpg';
 
-function ncard(val) {
-    return (
-        <EventCard1
-            key={val.id}
-            image={val.image}
-            title={val.title}
-            discription={val.discription}
-        />
-    );
-}
+import { useProductContext } from "../../context/eventContext";
+import { NavLink } from 'react-router-dom';
+// function ncard(val) {
+    
+//     return (
+//         <EventCard1
+//             key={val.id}
+//             image={val.image}
+//             title={val.title}
+//             discription={val.discription}
+//         />
+//     );
+// }
 
 function EventCard1(props) {
+    const {id} = props
     return (
+        <NavLink to={`/singleElement/${id}`}>
         <div className="container">
             {/* <div className="event-img"> */}
-                <img className="img1" src={props.image} alt="image" />
+                <img className="img1" src={ima1} alt="image" />
+
             {/* </div> */}
             <div className="event-title">
                 {props.title}
@@ -28,17 +33,24 @@ function EventCard1(props) {
             </div>
             <a className="button">Expolre More</a>
         </div>
+        </NavLink>
     );
 }
 
 export default function EventCard() {
+    const {isLoading,featureEvents} = useProductContext();
+    console.log(featureEvents);
+
+    if(isLoading === true) {
+        return <div>..Loading</div>
+    }
     return (
         <>
             <section className="event-section">
                 <h2 className="event-h1">FEEL THE RHYTHM</h2>
                 <h2 className="event-h1">OF THE ENDLESS NIGHT!</h2>
                 <section className="event-grid">
-                    {EventData.map(ncard)}
+                    {featureEvents.map((curEle)=>{return <EventCard1 key={curEle.id} {...curEle}/>})}
                 </section>
             </section>
         </>
