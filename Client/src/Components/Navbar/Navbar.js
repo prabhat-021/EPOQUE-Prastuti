@@ -1,7 +1,8 @@
 import React from 'react'
 import DehazeIcon from '@mui/icons-material/Dehaze';
 import CloseIcon from '@mui/icons-material/Close';
-import './Navbar.css'
+import './Navbar.css';
+import { Link } from 'react-router-dom';
 const Navbar =()=>{
 
     const [icons,setIcon]=React.useState(false);
@@ -11,22 +12,20 @@ const Navbar =()=>{
         <ul className={icons ? "nav-item-mobile" : "nav-item "}
         onClick={()=> setIcon(false)}>
           <li className="item link-hover">
-            <a className="item"  href="/">Home </a>
+            <Link className="item"  to="/">Home </Link>
           </li>
           <li className="item">
-            <a className="item"  href="/about">Residence </a>
+            <Link className="item"  to="/about">Residence </Link>
           </li>
           <li className="item">
-            <a className="item"  href="/project">Events </a>
+            <Link className="item"  to="/project">Events </Link>
           </li>
           <li className="item">
-            <a className="item"  href="/about">About</a>
+            <Link className="item"  to="/aboutKiet">About</Link>
           </li>
           <li className="item">
-            <a className="item"  href="/Team">Team</a>
+            <Link className="item"  to="/contact">ContactUs</Link>
           </li>
-
-          
         </ul>
         <button className="nav-icon"
         onClick={()=> setIcon(!icons)}>

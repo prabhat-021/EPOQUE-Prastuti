@@ -4,7 +4,7 @@ const Gallary = () => {
   return (
     <>
       <section className=' grid-container eve-gallary'>
-        <div class="grid-element grid-elementbase">
+        <div className="grid-element grid-elementbase">
           <div className='font-1'>EVENTS GALLERY</div>
           <div className='font-2'>Highlights of The Night</div>
         </div>
