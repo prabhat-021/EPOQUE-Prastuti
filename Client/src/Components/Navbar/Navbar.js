@@ -3,34 +3,37 @@ import DehazeIcon from '@mui/icons-material/Dehaze';
 import CloseIcon from '@mui/icons-material/Close';
 import './Navbar.css';
 import { Link } from 'react-router-dom';
-const Navbar =()=>{
+const Navbar = () => {
 
-    const [icons,setIcon]=React.useState(false);
+  const [icons, setIcon] = React.useState(false);
   return (
     <section className='nav-bg'>
       <div className="navbar">
         <ul className={icons ? "nav-item-mobile" : "nav-item "}
-        onClick={()=> setIcon(false)}>
+          onClick={() => setIcon(false)}>
           <li className="item link-hover">
-            <Link className="item"  to="/">Home </Link>
+            <Link className="item" to="/">Home </Link>
           </li>
           <li className="item">
-            <Link className="item"  to="/about">Residence </Link>
+            <Link className="item" to="/about">Residence </Link>
           </li>
           <li className="item">
-            <Link className="item"  to="/project">Events </Link>
+            <Link className="item" to="/project">Events </Link>
           </li>
           <li className="item">
-            <Link className="item"  to="/aboutKiet">About</Link>
+            <Link className="item" to="/aboutKiet">About</Link>
           </li>
           <li className="item">
-            <Link className="item"  to="/contact">ContactUs</Link>
+            <Link className="item" to="/login">Login</Link>
+          </li>
+          <li className="item">
+            <Link className="item" to="/register">register</Link>
           </li>
         </ul>
         <button className="nav-icon"
-        onClick={()=> setIcon(!icons)}>
-        {icons ? <CloseIcon /> : <DehazeIcon />  }
-          </button>
+          onClick={() => setIcon(!icons)}>
+          {icons ? <CloseIcon /> : <DehazeIcon />}
+        </button>
       </div>
     </section>
   )
