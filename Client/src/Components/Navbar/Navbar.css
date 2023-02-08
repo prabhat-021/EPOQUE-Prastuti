@@ -1,7 +1,7 @@
 
   .nav-bg{
     width: 100%;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgb(0, 0, 0, 0.9);
 
     height:15vh;
     display: flex;
@@ -58,6 +58,8 @@ color: red;
     .nav-item {
         display: none;
       }
+      
+      
     
       .nav-item-mobile {
         position: absolute;
@@ -65,9 +67,7 @@ color: red;
         display: block;
         list-style: none;
         transition: all 0.5s ease-out;
-        padding-left: 0px;
-        margin-right: 0px;
-        padding-right: 40px;
+        
         width: 310px;
         left: 0;
         top: 68px;
@@ -78,19 +78,20 @@ color: red;
       .item {
         color: #f9f9ff;
         text-align: center;
-        padding: 32px;
-        width: 100%;
+       padding: 10px;
         transition: all 0.5s ease;
       }
       
      
       .nav-icon {
-        color: rgb(9, 9, 66);
+        color: white;
         display: block;
-        position: absolute;
+       
         font-size: 30px;
         border: none;
         outline: none;
-        top: 10px;
+       justify-content: center;
+        background: transparent;
+        align-content: center;
       }
   }
