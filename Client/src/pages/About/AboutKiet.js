@@ -60,6 +60,7 @@ export default function AboutKiet() {
         </div>
         <div className="img-2">
         <img className="img-3" src={image2} alt="" />
+        <br />
         <img className="img-3" src={image3} alt="" />
         </div>
 
