@@ -3,8 +3,7 @@ import './index.css';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import AboutKiet from "./pages/About/AboutKiet.js";
 import SingElement from "./components/SingleElem/SingElement";
-import AboutPrastuti from "./pages/About/AboutPrastuti.js";
-
+import AboutPrastuti from "./pages/About/AboutPrastuti";
 export default function App() {
   return (
     <BrowserRouter>

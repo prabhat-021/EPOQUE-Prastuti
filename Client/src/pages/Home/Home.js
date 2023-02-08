@@ -14,9 +14,9 @@ import Navbar from '../../components/Navbar/Navbar';
 const Home = () => {
     return (
         <>
-        
+         <Navbar/>
         <section className='vid-1  sec-vid'>
-            <Navbar/>
+           
             <Landing className="landing-sec"/>
         </section>
             <section className='bg-1 sec'>
