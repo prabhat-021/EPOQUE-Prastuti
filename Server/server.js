@@ -9,7 +9,7 @@ connectDb();
 const PORT = process.env.PORT;
 app.use(express.json());
 
-app.use("/users", userRoutes);
+app.use("/api/users", userRoutes);
 
 
 app.listen(PORT, console.log(`Server is listening at Port:-${PORT}`));
