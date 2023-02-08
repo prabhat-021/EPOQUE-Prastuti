@@ -3,7 +3,7 @@ import axios from "axios";
 import reducer from "../reducer/eventReducer";
 const AppContext = createContext();
 
-const API = "./event.json";
+const API = "./event.js";
 const initialState = {
   isLoading: false,
   isError: false,

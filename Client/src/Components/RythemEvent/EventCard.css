@@ -3,13 +3,21 @@
     flex-direction: column;
     align-items: center;
 }
-
+.ele-rout{
+text-decoration: none;
+color: white;
+}
+.eve-head{
+    margin-top: 30px;
+    text-align: center;
+}
 .event-h1 {
     font-family: 'Poppins', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
     font-size: 3rem;
     line-height: 62px;
     font-weight: 600;
     font-style: normal;
+    margin: 10px;
 }
 
 .container {
@@ -31,8 +39,10 @@
 
 .event-dis {
     font-weight: 200;
-    margin-bottom: 20px;
+    margin: 20px 0px;
     text-align: justify;
+    font-size: 18px;
+    word-spacing: 1px;
 }
 
 .button {

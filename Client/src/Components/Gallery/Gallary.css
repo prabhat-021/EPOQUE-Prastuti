@@ -31,7 +31,7 @@
 }
 
 .grid-element1 {
-    background-image: url('../../assets/images/gal1.jpg');
+    background-image: url('../../assets/eventimage/fashion.JPG');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -39,7 +39,7 @@
 }
 
 .grid-element2 {
-    background-image: url('../../assets/images/gal2.jpg');
+    background-image: url('../../assets/eventimage/shivani.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -47,7 +47,7 @@
 }
 
 .grid-element3 {
-    background-image: url('../../assets/images/gal3.jpg');
+    background-image: url('../../assets/eventimage/nukkad.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -55,7 +55,7 @@
 }
 
 .grid-element4 {
-    background-image: url('../../assets/images/gal4.jpg');
+    background-image: url('../../assets/eventimage/eve.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

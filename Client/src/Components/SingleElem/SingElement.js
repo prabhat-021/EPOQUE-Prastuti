@@ -13,7 +13,7 @@ const SingElement = () => {
 
   return (
    <div className="eve-main-cont">
-<div className="eve-head-title">EVENT {single_event[0].title}</div>
+<div className="eve-head-title"> {single_event[0].title}</div>
       <div className="eve-cont">
       <img src={eve1} className="eve-img" alt="" />
  <div className="data">{single_event[0].discription}
