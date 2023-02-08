@@ -1,47 +1,82 @@
-.eve-main-cont{
+.eve-main-cont {
     color: white;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url('../../assets//images/7.jpg');
-    height: 100vh;
+    /* height: 100vh; */
 
-   
+
 
 }
-.eve-cont{
+
+.eve-cont {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    
+
 }
-.eve-head-title{
+
+.eve-head-title {
     font-size: 6vw;
     text-align: center;
     margin-bottom: 30px;
     word-spacing: 5px;
     letter-spacing: 3px;
 }
-.data{
+
+.data {
     margin: 10px;
-    font-size: 1.2vw;
+    font-size: 3vmin;
     width: 50vw;
     text-align: justify;
     word-spacing: 5px;
     letter-spacing: 1px;
-  
+
 }
-.eve-img{
+
+.eve-img {
     border-radius: 20px;
     max-width: 80%;
-   max-height: 80%;
-    
+    max-height: 80%;
+
 }
-.reg-btn{
-    margin-top: 5px;
-    padding: 10px 14px;
-    font-size: 22px;
-    border: 2px solid black;
+
+.reg-btn {
+    margin-top: 40px;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
     cursor: pointer;
+    background: #8490ff;
+    line-height: 42px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+    /* display: inline-block; */
+    font-weight: 500;
+    background: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
 }
+
+.event-rules {
+    background-image: url("../../assets/images/1.jpg");
+    height: 100vh;
+}
+.eve-des-det{
+    width:30vw;
+    font-size: 3vmin;
+}
+.eve-head{
+    font-size: 7vmin;
+    margin-bottom: 5%;
+}
+@media screen and (max-width: 830px) {
+ .eve-des-det{
+    width: 60vw;
+ }
+}
+
+
+
