@@ -12,11 +12,8 @@
     "@emotion/styled": "^11.10.5",
     "@mui/icons-material": "^5.11.0",
     "@mui/material": "^5.11.8",
-<<<<<<< HEAD
     "axios": "^1.3.2",
-=======
     "bootstrap": "^5.2.3",
->>>>>>> d996bc51e1392e5ee129b2051a7679c12f5bbe07
     "react": "18.2.0",
     "react-bootstrap": "^2.7.0",
     "react-dom": "18.2.0",
