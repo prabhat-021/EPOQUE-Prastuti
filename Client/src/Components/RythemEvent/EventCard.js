@@ -16,22 +16,22 @@ import { NavLink } from 'react-router-dom';
 //     );
 // }
 
-function EventCard1(props) {
+export  function EventCard1(props) {
     const {id} = props
     return (
-        <NavLink className="ele-rout" to={`/singleElement/${id}`}>
+        <NavLink className="ele-rout " to={`/singleElement/${id}`}>
         <div className="container">
             {/* <div className="event-img"> */}
                 <img className="img1" src={ima1} alt="image" />
 
             {/* </div> */}
-            <div className="event-title">
+            <div className="event-title link-hover">
                 {props.title}
             </div>
             <div className="event-dis">
                 {props.discription}
             </div>
-            <a className="button">Expolre More</a>
+            <a className="button link-hover">Expolre More</a>
         </div>
         </NavLink>
     );

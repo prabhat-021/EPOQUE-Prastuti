@@ -18,14 +18,17 @@ const SingElement = () => {
     <>
     
     <section className="single-event-section">
-      <h1 className="eve-head-1">{single_event[0].title}</h1>
+      <h1 className="eve-head-1">{single_event[0].title.slice(0,2)}<span className="land-head-span">{single_event[0].title.slice(2,-4)}</span>{single_event[0].title.slice(-4)}</h1>
       {/* sec-1  */}
     <div className="eve-sing-cont">
  <div className="des-cont">
-  <h1 className="eve-head-2"> Event <span className="land-head-span">Descrip</span>tion  </h1>
+  <h1 className="eve-head-2"> Event <span className="land-head-span">Descrip</span>tion -</h1>
   <p className="eve-para-1">
   Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo laborum corporis, voluptatem pariatur eligendi, cumque reiciendis dolorum vitae quis omnis inventore. Numquam ipsum deserunt sint, iste perspiciatis excepturi possimus, minus debitis repellat dignissimos sequi aliquam pariatur ex vero consequuntur voluptatibus?
   </p>
+  
+  <button className="btn-grad">REGISTER</button>
+
  </div>
  <img  className="eve-img" src={eve1} alt="" />
     </div>
@@ -39,8 +42,8 @@ const SingElement = () => {
 {/* sec-3  */}
 <section className=' grid-container eve-gallary'>
         <div className="grid-element grid-elementbase">
-          <div className='font-1'>EVENTS GALLERY</div>
-          <div className='font-2'>Highlights of The Night</div>
+          <div className='font-1'>EVE<span  className="land-head-span">NTS</span> GALL<span  className="land-head-span">ERY</span> </div>
+          <div className='font-2'>Highlights of The Event</div>
         </div>
         <div className="grid-element grid-element1" style={{
       backgroundImage: `url(${shiv1})`
@@ -57,6 +60,8 @@ const SingElement = () => {
 
       </section>
     </section>
+
+    
     </>
   );
 };

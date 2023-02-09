@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import AboutKiet from "./pages/About/AboutKiet.js";
 import SingElement from "./components/SingleElem/SingElement";
 import AboutPrastuti from "./pages/About/AboutPrastuti";
+import Allevent from "./components/RythemEvent/Allevent";
 export default function App() {
   return (
     <BrowserRouter>
@@ -13,6 +14,7 @@ export default function App() {
         <Route path="/singleElement/:id" element={<SingElement />} />
         {/* <Route path="/aboutPrastuti" element={<AboutPrastuti />} /> */}
         <Route path="/aboutPrastuti" element={<AboutPrastuti />} />
+        <Route path="/events" element={<Allevent />} />
         {/* <Route path="/contact" element={<Contact />} /> */}
       </Routes>
     </BrowserRouter>

@@ -15,17 +15,18 @@ color: white;
     flex-wrap: wrap-reverse;
     display: flex;
     justify-content: space-evenly;
-    margin: 20px;
+    margin: 10vmin 0px;
 }
 .eve-img{
 width: 70vmin;
 }
 .des-cont{
-    text-align: center;
+    text-align: justify;
     width: 50vmax;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    align-items: start;
     
 }
 .eve-head-2{
@@ -47,7 +48,7 @@ font-weight: bold;
     flex-direction: column;
     text-align: center;
     justify-content: space-between;
-
+margin-top: 20vmin;
     align-items: center;
    
 }
@@ -55,4 +56,32 @@ font-weight: bold;
     width: 50vw;
     margin: 20px;
 }
+
+
+  .brn-grad-par{
+    text-align: center;
+  }       
+.btn-grad {
+    margin-top: 10px;
+    border: none;
+    background-image: linear-gradient(to right, #FF512F 0%, #F09819  51%, #FF512F  100%);
+    padding: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+    font-size: 1.2em;
+    width: 25vmin;
+  }
+
+  .btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+ 
 
