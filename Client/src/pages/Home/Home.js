@@ -10,6 +10,7 @@ import { AiOutlineInstagram, AiFillYoutube } from "react-icons/ai";
 import EventCard from "../../components/RythemEvent/EventCard.js";
 import Landing from '../../components/Landing/Landing';
 import Navbar from '../../components/Navbar/Navbar';
+import Footer from "../../components/Footer/Footer.js";
 
 const Home = () => {
     return (
@@ -86,6 +87,7 @@ const Home = () => {
                    <a className='icon-link' href=""><AiFillYoutube className='footer-icon'/></a> 
                 </div>
             </section>
+            <Footer />
         </>
     )
 
