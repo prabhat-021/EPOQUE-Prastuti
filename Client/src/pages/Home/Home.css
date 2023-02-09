@@ -88,12 +88,14 @@
 .sec-eve-day {
     font-size: 6vmin;
     font-weight: bolder;
+    background: transparent;
 }
 
 .sec-eve-nam {
     font-size: 10vmin;
     font-weight: bolder;
     cursor: pointer;
+    background: transparent;
 }
 
 
@@ -101,6 +103,7 @@
 .sec-det-eve {
     font-size: 4vmin;
     font-weight: bold;
+    background: transparent;
 }
 
 .btn {
@@ -167,9 +170,7 @@
     font-size: 4vmin;
 }
 
-.eve-box{
-   
-}
+
 .eve-box{
     border-radius: 18px;
     padding: 30px;
@@ -232,6 +233,13 @@
         height: 70vh;
     }
     .bg-5{
+        height: 70vh;
+    }
+    .bg-6{
+        height: 70vh;
+    }
+
+    .bg-7{
         height: 70vh;
     }
 }

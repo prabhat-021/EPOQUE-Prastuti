@@ -1,5 +1,6 @@
 import React from 'react'
 import { useProductContext } from '../../context/eventContext';
+import Footer from '../Footer/Footer';
 import { EventCard1 } from './EventCard';
 function Allevent() {
     const {isLoading,events} = useProductContext();
@@ -19,6 +20,7 @@ function Allevent() {
                     {events.map((curEle)=>{return <EventCard1 key={curEle.id} {...curEle}/>})}
                 </section>
             </section>
+            <Footer/>
     </div>
   )
 }

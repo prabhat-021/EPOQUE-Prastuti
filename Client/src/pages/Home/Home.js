@@ -35,11 +35,13 @@ const Home = () => {
                 
             </section>
             <section className='sec-new bg-4 sec'>
-            <div className="eve-box"><div className='sec-eve-day'>SATURDAY</div>
+            <div className="eve-box">
+                <div className='sec-eve-day'>SATURDAY</div>
                 <div className='sec-eve-day' >2/3/2022</div>
                 <div className='sec-eve-nam'><span className='land-head-span'>PRAC</span>HAND</div>
                 <div className='sec-det-eve'>NUKKAD NATAK</div>
-                <button className='btn' >Get Ticket</button></div>
+                <button className='btn' >Get Ticket</button>
+                </div>
                 
             </section>
             <section className='sec-new bg-5 sec'>

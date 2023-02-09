@@ -9,7 +9,6 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin: 4%;
     letter-spacing: 2px;
     flex-wrap: wrap;
 }
@@ -27,7 +26,7 @@
 }
 
 .div-h {
-    height: 50vh;
+    height: 30vh;
 }
 
 .bottom {
@@ -36,9 +35,12 @@
 
 .foot-img{
     border-radius: 8px;
-    height: 35vh;
+    width: 20vmin;
 }
 a{
     text-decoration: none;
     color: white;
+}
+.about-kiet{
+    text-align: center;
 }

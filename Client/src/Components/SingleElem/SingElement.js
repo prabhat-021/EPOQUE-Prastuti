@@ -7,6 +7,7 @@ import shiv2 from '../../assets/eventimage/shivani2.jpg'
 import shiv3 from '../../assets/eventimage/shivani3.jpg'
 import shiv4 from '../../assets/eventimage/shivani4.JPG'
 import "./Single.css";
+import Footer from "../Footer/Footer";
 const SingElement = () => {
   const { isLoading, events } = useProductContext();
   const id = useParams();
@@ -59,7 +60,9 @@ const SingElement = () => {
     }}>4</div>
 
       </section>
+      
     </section>
+    <Footer/>
 
     
     </>

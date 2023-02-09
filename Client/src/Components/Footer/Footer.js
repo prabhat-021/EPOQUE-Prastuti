@@ -28,7 +28,7 @@ export default function Footer() {
                     </div>
                     <div className='kiet-link div-h '>
                         <Link to="/aboutKiet"><img src={image1} alt="footer-image" className="foot-img" /></Link>
-                        <Link to="/aboutKiet">About Kiet</Link>
+                        <Link to="/aboutKiet" className='about-kiet'>About Kiet</Link>
                     </div>
                 </section>
                 <hr />
