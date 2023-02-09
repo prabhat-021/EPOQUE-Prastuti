@@ -24,7 +24,8 @@
 }
 
 .vid-1{
-    background-image: url(../../assets//images/vid.webp);
+    background-color: #050c19;
+
     width: 100%;
     height: 100vh;
     background-repeat: no-repeat;
@@ -35,44 +36,44 @@
 }
 
 .bg-1 {
-    background-image: url('../../assets//images/1.jpg');
+    background-color: #050c19;
     width: 100%;
     
 }
 
 
 .bg-2{
-    background-image: url('../../assets//images/2.jpg');
+    background-color: #050c19;
     width: 100%;
-    height: 60vh;
+    height: 50vh;
 }
 
 .bg-3 {
-    background-image: url('../../assets//images/3.jpg');
+    background-color: #050c19;
     width: 100%;
     height: 100vh;
 }
 
 .bg-4 {
-    background-image: url('../../assets//images/4.jpg');
+    background-color: #050c19;
     width: 100%;
     height: 100vh;
 }
 
 .bg-5 {
-    background-image: url('../../assets//images/5.jpg');
+    background-color: #050c19;
     width: 100%;
     height: 100vh;
 }
 
 .bg-6 {
-    background-image: url('../../assets//images/6.jpg');
+    background-color: #050c19;
     width: 100%;
     height: 100vh;
 }
 
 .bg-7 {
-    background-image: url('../../assets//images/footer.jpg');
+    background-color: #050c19;
     width: 100%;
     height: 100vh;
 }
@@ -86,12 +87,9 @@
     font-size: 10vmin;
     font-weight: bolder;
     cursor: pointer;
-    text-shadow: 1px 1px 1px #000;
 }
 
-.sec-eve-nam:hover {
-    color: rgb(30, 104, 252);
-}
+
 
 .sec-det-eve {
     font-size: 4vmin;
@@ -111,12 +109,16 @@
 }
 
 .btn:hover {
-    border-color: rgb(30, 104, 252);
-    color: rgb(30, 104, 252);
+    background-color: #FFE53B;
+    background-image: linear-gradient(147deg, #FFE53B 0%, #FF2525 74%);
+    
+-webkit-text-fill-color: transparent;
+-webkit-background-clip: text;
+    
 }
 
 .sec-btn {
-    background-image: url('../../assets//images/2.jpg');
+    background-color: #050c19;
     width: 100%;
     height: 20vh;
     display: flex;
@@ -178,7 +180,6 @@
        }
        .font-3{ 
         color: white;
-         text-shadow: 1px 1px 1px #000;
         font-size: 9vmin;
         letter-spacing: 6px;
         font-weight: bolder;

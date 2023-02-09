@@ -48,7 +48,7 @@ export default function EventCard() {
         <>
             <section className="event-section">
                 <div className='eve-head'>
-                <h2 className="event-h1">FEEL THE RHYTHM</h2>
+                <h2 className="event-h1"><span className='land-head-span'> FEEL THE</span> RHYTHM</h2>
                 <h2 className="event-h1">OF THE ENDLESS NIGHT!</h2>
                 </div>
               

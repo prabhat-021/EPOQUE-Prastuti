@@ -1,82 +1,58 @@
-.eve-main-cont {
-    color: white;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url('../../assets//images/7.jpg');
-    /* height: 100vh; */
-
-
+.single-event-section{
+    min-height: 100vh;
+color: white;
+    background-color: #050c19;
+    padding: 10px;
 
 }
-
-.eve-cont {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-
-}
-
-.eve-head-title {
-    font-size: 6vw;
+.eve-head-1{
+    font-size: 10vmin;
     text-align: center;
-    margin-bottom: 30px;
-    word-spacing: 5px;
-    letter-spacing: 3px;
+    margin: 2vmin;
 }
 
-.data {
-    margin: 10px;
-    font-size: 3vmin;
-    width: 50vw;
-    text-align: justify;
-    word-spacing: 5px;
-    letter-spacing: 1px;
+.eve-sing-cont{
+    flex-wrap: wrap-reverse;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+.eve-img{
+width: 70vmin;
+}
+.des-cont{
+    text-align: center;
+    width: 50vmax;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+.eve-head-2{
+    font-size: 8vmin;
+}
+.eve-head-3{
+font-size: 7vmin;
+font-weight: bold;
+}
+.eve-para-1{
+    word-spacing: 3px;
+    font-size: 2.5vmin;
+    line-height: 5vmin;
 
 }
 
-.eve-img {
-    border-radius: 20px;
-    max-width: 80%;
-    max-height: 80%;
+.eve-desc{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
 
-}
-
-.reg-btn {
-    margin-top: 40px;
-    text-decoration: none;
-    transition: all 0.3s ease 0s;
-    cursor: pointer;
-    background: #8490ff;
-    line-height: 42px;
-    padding-left: 30px;
-    padding-right: 30px;
-    border: none;
-    border-radius: 6px;
-    color: #fff;
-    /* display: inline-block; */
-    font-weight: 500;
-    background: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
-}
-
-.event-rules {
-    background-image: url("../../assets/images/1.jpg");
-    height: 100vh;
+    align-items: center;
+   
 }
 .eve-des-det{
-    width:30vw;
-    font-size: 3vmin;
+    width: 50vw;
+    margin: 20px;
 }
-.eve-head{
-    font-size: 7vmin;
-    margin-bottom: 5%;
-}
-@media screen and (max-width: 830px) {
- .eve-des-det{
-    width: 60vw;
- }
-}
-
-
 

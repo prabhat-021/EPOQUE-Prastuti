@@ -22,28 +22,28 @@ const Home = () => {
                 <EventCard />
             </section>
             <section className='bg-2 sec sec-new'>
-                <div className='sec-eve-nam'>UPCOMING EVENTS</div>
+                <div className='sec-eve-nam'><span className='land-head-span'>UPCOMING</span>  EVENTS</div>
                 <div className='sec-det-eve'>Best Music Events</div>
             </section>
             <section className=' sec-new bg-3 sec'>
 
                 <div className='sec-eve-day'>Friday</div>
                 <div className='sec-eve-day' >2/3/2022</div>
-                <div className='sec-eve-nam'>सुर-ए-SAAZ</div>
+                <div className='sec-eve-nam'><span className='land-head-span'>सुर-ए</span> -SAAZ</div>
                 <div className='sec-det-eve'>GROUP SINGING</div>
                 <button className='btn' >Get Ticket</button>
             </section>
             <section className='sec-new bg-4 sec'>
                 <div className='sec-eve-day'>SATURDAY</div>
                 <div className='sec-eve-day' >2/3/2022</div>
-                <div className='sec-eve-nam'>PRACHAND</div>
+                <div className='sec-eve-nam'><span className='land-head-span'>PRAC</span>HAND</div>
                 <div className='sec-det-eve'>NUKKAD NATAK</div>
                 <button className='btn' >Get Ticket</button>
             </section>
             <section className='sec-new bg-5 sec'>
                 <div className='sec-eve-day'>SUNDAY</div>
                 <div className='sec-eve-day' >2/3/2022</div>
-                <div className='sec-eve-nam'>BATTLE OF BANDS</div>
+                <div className='sec-eve-nam'> <span className='land-head-span'>BATTLE</span> OF BANDS</div>
                 <div className='sec-det-eve'>BAND WAR</div>
                 <button className='btn' >Get Ticket</button>
             </section>
@@ -75,7 +75,7 @@ const Home = () => {
                 </section>
             </section>
             <section className="bg-7 sec sec-new">
-                <div className="sec-eve-nam i">PRASTUTI</div>
+                <div className="sec-eve-nam i"><span className='land-head-span'>PRAS</span>TUTI</div>
                 <div className="venue gap">
                     <FaFacebookF className='footer-icon'/>
                     <AiOutlineInstagram className='footer-icon'/>

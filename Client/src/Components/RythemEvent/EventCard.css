@@ -12,8 +12,9 @@ color: white;
     text-align: center;
 }
 .event-h1 {
+    text-align: center;
     font-family: 'Poppins', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
-    font-size: 3rem;
+    font-size: 10vmin;
     line-height: 62px;
     font-weight: 600;
     font-style: normal;
