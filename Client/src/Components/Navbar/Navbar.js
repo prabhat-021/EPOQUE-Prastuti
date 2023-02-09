@@ -6,16 +6,33 @@ import './Navbar.css';
 import { Link } from 'react-router-dom';
 import { useEffect, useState } from "react";
 import jwt_decode from "jwt-decode";
+import axios from 'axios';
 const Navbar =()=>{
 
     const [icons,setIcon]=React.useState(false);
 
     const [user ,setUser] = useState({})
-    const handlCallbackResponse = (response) => {
+    const handlCallbackResponse = async (response) => {
       console.log("Encoded JWT ID token :" + response.credential);
       var userObject = jwt_decode(response.credential);
       console.log(userObject);
+      const name = userObject.name;
+      const email = userObject.email;
       setUser(userObject)
+      console.log(name,email);
+      
+      await axios.post("http://localhost:8000/api/register",{name,email});
+
+      // await fetch("http://localhost:8000/api/register",{
+      //   method:"post",
+      //   body: name
+      // }).then(()=>{
+      //   (response) => response.json()
+       
+      // console.log("created successful")
+      // }).catch((err)=>{
+      //   console.log(err);
+      // })
       document.getElementById("signInDiv").hidden = true;
     };
   function handleSignOut (event){
@@ -35,6 +52,7 @@ document.getElementById("signInDiv").hidden = false;
       });
       google.accounts.id.prompt();
     }, []);
+
 
   return (
     <section className='nav-bg'>
