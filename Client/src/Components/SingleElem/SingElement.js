@@ -31,7 +31,7 @@ const SingElement = () => {
   <button className="btn-grad">REGISTER</button>
 
  </div>
- <img  className="eve-img" src={eve1} alt="eveent image" />
+ <img  className="eve-img" src={`https://drive.google.com/uc?id=${single_event[0].imgid}`} alt="eveent image" />
     </div>
 
 {/* /sec-2 */}

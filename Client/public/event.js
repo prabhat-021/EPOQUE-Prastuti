@@ -2,14 +2,15 @@
     
     {
         "id": 1,
-        "image": "../../assets/images/eve1.jpg",
-        "title": "BAND WAR",
+         "title": "BAND WAR",
+        "imgid":"1UfZdOqrlpinNnmLeQX-gPzMFYqxHCBg0",
         "discription": "POP , R&B , Soul and Rock, What's your genre? Prastuti's 23 presents to you the biggest platform for your band to showcase your talent among the youth of the nation. Through BATTLE OF BANDS ,It's time for you to witness a musical a musical showdown lke no other!",
         "featured":true
     },
     {
         "id": 2,
         "image": "image1",
+        "imgid":"1UfZdOqrlpinNnmLeQX-gPzMFYqxHCBg0",
         "title": "RIWAYAT 2",
         "discription": "Who says fashion can't be fun? A fashion even like no other is what we call RIWAYAT.Come and witness the latest trends in fashion and enjoy a night filled with colours in vogue and high style. Join us for this event where the models ace the runway in the most attractive and confident manner.",
         "featured":true

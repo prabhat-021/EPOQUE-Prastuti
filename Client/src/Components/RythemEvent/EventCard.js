@@ -22,7 +22,7 @@ export  function EventCard1(props) {
         <NavLink className="ele-rout " to={`/singleElement/${id}`}>
         <div className="container">
             {/* <div className="event-img"> */}
-                <img className="img1" src={ima1} alt="image" />
+                <img className="img1" src={`https://drive.google.com/uc?id=${props.imgid}`} alt="image" />
 
             {/* </div> */}
             <div className="event-title link-hover">
