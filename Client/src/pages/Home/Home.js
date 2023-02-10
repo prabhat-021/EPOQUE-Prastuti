@@ -27,7 +27,8 @@ const Home = () => {
                 <div className='sec-det-eve'>Best Music Events</div>
             </section>
             <section className=' sec-new bg-3 sec'>
-<div className='eve-box'><div className='sec-eve-day'>Friday</div>
+<div className='eve-box'>
+                <div className='sec-eve-day'>Friday</div>
                 <div className='sec-eve-day' >2/3/2022</div>
                 <div className='sec-eve-nam'><span className='land-head-span'>सुर-ए</span> -SAAZ</div>
                 <div className='sec-det-eve'>GROUP SINGING</div>
@@ -40,6 +41,7 @@ const Home = () => {
                 <div className='sec-eve-day' >2/3/2022</div>
                 <div className='sec-eve-nam'><span className='land-head-span'>PRAC</span>HAND</div>
                 <div className='sec-det-eve'>NUKKAD NATAK</div>
+                
                 <button className='btn' >Get Ticket</button>
                 </div>
                 
