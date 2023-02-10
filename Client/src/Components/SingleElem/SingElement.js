@@ -37,7 +37,7 @@ const SingElement = () => {
 {/* /sec-2 */}
     <div className="eve-desc">
       <div className="eve-head-3"><span className="land-head-span">Over</span>view <span className="land-head-span">O</span>f <span className="land-head-span">T</span>he Eve<span className="land-head-span">nt</span> </div>
-      <div className="eve-des-det eve-para-1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut cum, facilis quod itaque corrupti dolor. Ab tempore obcaecati, praesentium molestiae, doloribus dolore nulla error quas perferendis dolorum unde repellendus ipsa nostrum officiis cupiditate eum inventore eos culpa dolor earum rerum.</div>
+      <div className="eve-des-det eve-para-1">{single_event[0].over}</div>
     </div>
 
 {/* sec-3  */}
