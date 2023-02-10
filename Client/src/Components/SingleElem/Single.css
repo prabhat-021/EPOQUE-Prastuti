@@ -26,7 +26,7 @@ width: 70vmin;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    align-items: start;
+    align-items: flex-start;
     
 }
 .eve-head-2{
