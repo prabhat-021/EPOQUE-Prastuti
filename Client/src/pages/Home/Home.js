@@ -5,7 +5,8 @@ import { BsPhone } from 'react-icons/bs';
 import { GoLocation } from "react-icons/go";
 import { FiMail } from "react-icons/fi";
 import { FaFacebookF, FaTwitter } from "react-icons/fa";
-import { AiOutlineInstagram, AiFillYoutube } from "react-icons/ai";
+import { AiOutlineInstagram, AiFillYoutube,AiFillLinkedin } from "react-icons/ai";
+
 
 import EventCard from "../../components/RythemEvent/EventCard.js";
 import Landing from '../../components/Landing/Landing';
@@ -58,37 +59,40 @@ const Home = () => {
 
             <section><Gallary /></section>
 
-            <section className='sec sec-btn'>
+            {/* <section className='sec sec-btn'>
                 <button className='btn'>ALL GALARY</button>
-            </section>
+            </section> */}
             <section className='bg-6 sec sec-new'>
-                <div className="sec-eve-nam">VENUE & INFO</div>
-                <div className="sec-det-eve">Have Some Questions?</div>
+                <div className="sec-eve-nam">VEN<span className='land-head-span'>UE &</span> INFO</div>
+                <div className="sec-det-eve">Have Some Questi<span className='land-head-span'>ons?</span></div>
                 <section className='venue'>
                     <div className='icon-card'>
                         <BsPhone className='icon' />
                         <div className='icon-h1'>Phone</div>
-                        <div className='icon-h2'>8299550885</div>
+                        <div className='icon-h2'>9140554588</div>
+                        <div className='icon-h2'>8171744832</div>
                     </div>
                     <div className='icon-card'>
                         <GoLocation className='icon' />
                         <div className='icon-h1'>Address</div>
-                        <div className='icon-h2'>MUSKAN HOSTEL KIET</div>
+                        <div className='icon-h2'>KIET GROUP OF INSTITUTION</div>
+                        <div className='icon-h2'>GHAZIABAD DELHI NCR</div>
                     </div>
                     <div className='icon-card'>
                         <FiMail className='icon' />
                         <div className='icon-h1'>Mail</div>
-                        <div className='icon-h2'>aryantiwari@mail.com</div>
+                        <div className='icon-h2'>aayush.kaushik@kiet.edu</div>
+                        <div className='icon-h2'>airn.2024ec1095@kiet.edu</div>
                     </div>
                 </section>
             </section>
             <section className="bg-7 sec sec-new">
-                <div className="sec-eve-nam i"><span className='land-head-span'>PRAS</span>TUTI</div>
+                <div className="sec-eve-nam i"><span className='land-head-span'>Epo</span>que@<span className='land-head-span'>PRAS</span>TUTI</div>
                 <div className="venue gap">
-                   <a className='icon-link' href=""><FaFacebookF className='footer-icon'/></a> 
-                   <a className='icon-link' href=""><AiOutlineInstagram className='footer-icon'/></a> 
-                  <a className='icon-link' href=""><FaTwitter className='footer-icon'/></a>  
-                   <a className='icon-link' href=""><AiFillYoutube className='footer-icon'/></a> 
+                   <a className='icon-link' target="_blank" href="https://www.facebook.com/kiet.edu/posts/pfbid0Bs8XHXeKWn2VpDZfxioj45cYMiEhEs9i1bC4rwgWxUBLxNi4PTZa31fdPN4SERQEl"><FaFacebookF className='footer-icon'/></a> 
+                   <a className='icon-link' target="_blank" href="https://www.instagram.com/p/CoZPxDcPmOW/?utm_source=ig_web_copy_link"><AiOutlineInstagram className='footer-icon'/></a> 
+                  <a className='icon-link' target="_blank" href="https://twitter.com/Kiet_edu/status/1623236266883190785"><FaTwitter className='footer-icon'/></a>  
+                   <a className='icon-link' target="_blank" href="https://www.linkedin.com/feed/update/urn:li:share:7029001244711002112/"><AiFillLinkedin className='footer-icon'/></a> 
                 </div>
             </section>
             <Footer />

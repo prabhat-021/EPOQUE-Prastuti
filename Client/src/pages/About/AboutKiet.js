@@ -4,7 +4,6 @@ import image1 from "../../assets/AboutKietImages/1.jpg";
 import image2 from "../../assets/AboutKietImages/2.jpg";
 import image3 from "../../assets/AboutKietImages/3.jpg";
 import "./AboutKiet.css";
-import Footer from "../../components/Footer/Footer.js";
 
 export default function AboutKiet() {
   return (
@@ -113,7 +112,6 @@ export default function AboutKiet() {
           <img className="img-3" src={image3} alt="" />
         </div>
       </section>
-      <Footer/>
     </>
   );
 }

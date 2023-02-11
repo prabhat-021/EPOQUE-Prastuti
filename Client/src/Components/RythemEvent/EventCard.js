@@ -31,7 +31,7 @@ export  function EventCard1(props) {
             <div className="event-dis">
                 {props.discription}
             </div>
-            <a className="button link-hover">Expolre More</a>
+            <button className="button link-hover">Expolre More</button>
         </div>
         </NavLink>
     );

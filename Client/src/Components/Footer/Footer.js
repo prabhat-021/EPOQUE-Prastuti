@@ -22,9 +22,8 @@ export default function Footer() {
                     </div>
                     <div className='div-h kiet-link'>
                         <h1 className="head-1">Contact Us</h1>
-                        <div><FaPhoneAlt /> +91 9084539879</div>
-                        <div><SiGmail /> Prabhat@gmail.com</div>
-                        <div><GoLocation /> Delhi-NCR, <br/>Ghaziabad</div>
+                        <div><FaPhoneAlt />9140554588</div>
+                        <div><SiGmail />aayush.kaushik@kiet.edu</div>
                     </div>
                     <div className='kiet-link div-h '>
                         <Link to="/aboutKiet"><img src={image1} alt="footer-image" className="foot-img" /></Link>

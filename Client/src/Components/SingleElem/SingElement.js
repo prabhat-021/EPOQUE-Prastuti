@@ -1,11 +1,11 @@
 import React, { useEffect } from "react";
 import { useParams } from "react-router-dom";
-import eve1 from "../../assets/eventimage/shivani.jpg";
 import { useProductContext } from "../../context/eventContext";
 import shiv1 from '../../assets/eventimage/shivani.jpg'
 import shiv2 from '../../assets/eventimage/shivani2.jpg'
 import shiv3 from '../../assets/eventimage/shivani3.jpg'
 import shiv4 from '../../assets/eventimage/shivani4.JPG'
+import rule from '../../assets/rule.pdf'
 import "./Single.css";
 import Footer from "../Footer/Footer";
 const SingElement = () => {
@@ -15,6 +15,8 @@ const SingElement = () => {
     return curElem.id == id.id;
   });
   console.log(single_event);
+
+  
   return (
     <>
     
@@ -25,20 +27,31 @@ const SingElement = () => {
  <div className="des-cont">
   <h1 className="eve-head-2"> Event <span className="land-head-span">Descrip</span>tion -</h1>
   <p className="eve-para-1">
-  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo laborum corporis, voluptatem pariatur eligendi, cumque reiciendis dolorum vitae quis omnis inventore. Numquam ipsum deserunt sint, iste perspiciatis excepturi possimus, minus debitis repellat dignissimos sequi aliquam pariatur ex vero consequuntur voluptatibus?
+    {single_event[0].discription}
   </p>
   
   <button className="btn-grad">REGISTER</button>
 
  </div>
- <img  className="eve-img" src={`https://drive.google.com/uc?id=${single_event.imgid}`} alt="eveent image" />
+ <img  className="eve-img" src={`https://drive.google.com/uc?id=${single_event[0].imgid}`} alt="eveent image" />
     </div>
 
 {/* /sec-2 */}
     <div className="eve-desc">
-      <div className="eve-head-3"><span className="land-head-span">Over</span>view <span className="land-head-span">O</span>f <span className="land-head-span">T</span>he Eve<span className="land-head-span">nt</span> </div>
-      <div className="eve-des-det eve-para-1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut cum, facilis quod itaque corrupti dolor. Ab tempore obcaecati, praesentium molestiae, doloribus dolore nulla error quas perferendis dolorum unde repellendus ipsa nostrum officiis cupiditate eum inventore eos culpa dolor earum rerum.</div>
+      <div className="eve-head-3"><span className="land-head-span">Rul</span>es  <span className="land-head-span">&</span> Re<span className="land-head-span">gu</span>lat<span className="land-head-span">ions</span> </div>
+   <ul className="rule">
+    <li>TEAM MEMBER: 15</li>
+    <li>TIME: Max. 20 mins.</li>
+    <li>REGISTRATION FEE: Rs. 200 per participant + Rs. 300 extra per participant beyond 15 participants </li>
+    <li>1st: Cash Rs. 11000 + Gift Voucher + Goodies + Memento + Certificate + Free Pass for Star Night.</li>
+    <li>2nd: Cash Rs. 7000 + Gift Voucher + Goodies + Memento + Certificate + Free Pass for Star Night.</li>
+    <li>3rd:  Memento + Certificate + Free Pass for Star Night
+All participants will get the participation Certificate
+</li>
+   </ul>
+
     </div>
+    <div className="btn-rul"><a href={rule} target ="_blank" download className=" rulebtn"><button className="btn-grad">Rule-Book</button></a></div>
 
 {/* sec-3  */}
 <section className=' grid-container eve-gallary'>

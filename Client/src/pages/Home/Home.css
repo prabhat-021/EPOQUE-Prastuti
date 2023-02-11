@@ -41,13 +41,7 @@
     text-decoration: none;
     color: white;
 }
-.icon-link:hover{
-    background-color: #FFE53B;
-    background-image: linear-gradient(147deg, #FFE53B 0%, #FF2525 74%);
-    
--webkit-text-fill-color: transparent;
--webkit-background-clip: text;
-}
+
 
 .bg-2{
     background-color: #050c19;
@@ -159,7 +153,7 @@
 }
 
 .icon-card {
-    margin: 10px;
+    margin: 20px;
 }
 
 .icon {
@@ -195,24 +189,24 @@
        }
        .font-3{ 
         color: white;
-        font-size: 9vmin;
-        letter-spacing: 6px;
+        font-size: 8vmin;
+        letter-spacing: 5px;
         font-weight: bolder;
        }
+
        .font-4{
         color: white;
-        text-shadow: 1px 1px 1px #000;
         margin: 10px;
         font-size: 4vmin;
-        letter-spacing: 5px;
-        word-spacing: 10px;
+        letter-spacing: 4px;
+        word-spacing: 8px;
        }
 
 
 
        
 .icon-h2 {
-    font-size: 4.5vmin;
+    font-size: 3.5vmin;
 }
 .footer-icon{
     font-size: 9vmin;

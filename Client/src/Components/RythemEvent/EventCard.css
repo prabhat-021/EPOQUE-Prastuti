@@ -23,13 +23,17 @@ color: white;
 }
 
 .container {
+
     min-width: 200px;
     width: 30vw;
     margin: 10px;
+
 }
 
 .img1 {
+
     width: 100%;
+    height: auto;
     border-radius: 4%;
 }
 
